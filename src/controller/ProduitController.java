@@ -9,8 +9,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import dao.Produit;
 import services.ProduitMetier;
+import dao.Produit;
 
 @Controller
 public class ProduitController {
